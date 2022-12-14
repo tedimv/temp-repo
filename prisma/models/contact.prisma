@@ -1,6 +1,0 @@
-model Contact {
-  id    Int     @id @default(autoincrement())
-  name  String? @default("") @db.VarChar(50)
-  email String? @default("") @db.VarChar(50)
-  users User[]
-}
